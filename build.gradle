@@ -15,7 +15,7 @@ apply plugin: "maven-publish"
 ext {
     semVersion = "0.0.1"
     fullVersion = semVersion + "+" + ('git rev-list --count HEAD'.execute().text.trim())
-    nettyVersion = "4.1.78.Final"
+    nettyVersion = "4.1.79.Final"
     lombokVersion = "1.18.24"
     protobufVersion = "3.21.2"
     log4jVersion = "2.17.2"
